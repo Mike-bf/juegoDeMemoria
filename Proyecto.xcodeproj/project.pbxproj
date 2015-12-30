@@ -47,6 +47,7 @@
 		493B28E91C346C8C00E84F1A /* ProyectoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		493B28ED1C346C8C00E84F1A /* ProyectoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoUITests.swift; sourceTree = "<group>"; };
 		493B28EF1C346C8C00E84F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		493B28FB1C3471DF00E84F1A /* reto01.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = reto01.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		493B28C11C346C8B00E84F1A = {
 			isa = PBXGroup;
 			children = (
+				493B28FB1C3471DF00E84F1A /* reto01.playground */,
 				493B28CC1C346C8B00E84F1A /* Proyecto */,
 				493B28E11C346C8C00E84F1A /* ProyectoTests */,
 				493B28EC1C346C8C00E84F1A /* ProyectoUITests */,
@@ -482,6 +484,7 @@
 				493B28F41C346C8C00E84F1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		493B28F51C346C8C00E84F1A /* Build configuration list for PBXNativeTarget "ProyectoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +493,7 @@
 				493B28F71C346C8C00E84F1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		493B28F81C346C8C00E84F1A /* Build configuration list for PBXNativeTarget "ProyectoUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +502,7 @@
 				493B28FA1C346C8C00E84F1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
