@@ -1,0 +1,27 @@
+//: Playground - noun: a place where people can play
+
+import UIKit
+
+let numeros = 0...100
+
+for aux in numeros{
+    //Regla 1.
+    var aux1 = aux % 5
+    if aux1 == 0{
+    print("\(aux)\t\("#Bingo!!!")")
+    }
+    //Regla 2.
+    var aux2 = aux % 2
+    if aux2 == 0{
+        print("\(aux)\t\("#Par!!!")")
+    }
+    //Regla 3.
+    else if aux2 != 0{
+        print("\(aux)\t\("#Impar!!!")")
+    }
+    
+    //Regla 4.
+    if aux >= 30 && aux <= 40{
+        print("\(aux)\t\("#Viva Swift!!!")")
+    }
+}
